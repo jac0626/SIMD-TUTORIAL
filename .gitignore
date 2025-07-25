@@ -1,0 +1,6 @@
+# Build output
+arm/build/
+x86/build/
+# Other
+*.o
+*.out
