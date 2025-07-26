@@ -1,0 +1,2 @@
+add_executable(avx2_load_store load_store.cpp)
+target_compile_options(avx2_load_store PRIVATE -mavx2)

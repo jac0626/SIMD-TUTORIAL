@@ -1,1 +1,2 @@
 add_executable(neon_example neon_example.cpp)
+add_executable(neon_memory_load_store memory_load_store.cpp)
