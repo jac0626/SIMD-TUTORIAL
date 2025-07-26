@@ -1,2 +1,4 @@
-add_executable(avx2_load_store load_store.cpp)
-target_compile_options(avx2_load_store PRIVATE -mavx2)
+
+
+add_executable(avx2_memory_operations memory_operations.cpp)
+target_compile_options(avx2_memory_operations PRIVATE -mavx2)

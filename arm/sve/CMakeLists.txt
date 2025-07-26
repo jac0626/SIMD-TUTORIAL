@@ -1,5 +1,5 @@
-add_executable(sve_example sve_example.cpp)
-target_compile_options(sve_example PRIVATE -march=armv8-a+sve)
+add_executable(sve_load_instructions_s32 load_instructions_s32.cpp)
+target_compile_options(sve_load_instructions_s32 PRIVATE -march=armv8-a+f64mm)
 
-add_executable(sve_memory_load_store memory_load_store.cpp)
-target_compile_options(sve_memory_load_store PRIVATE -march=armv8-a+sve2)
+add_executable(sve_store_instructions_u32 store_instructions_u32.cpp)
+target_compile_options(sve_store_instructions_u32 PRIVATE -march=armv8-a+sve)
